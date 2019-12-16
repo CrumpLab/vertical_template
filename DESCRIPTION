@@ -1,5 +1,5 @@
-Package: verticaltemplate
-Title: The title of your reseach project
+Package: newVerticalTest
+Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Matt",
@@ -7,12 +7,9 @@ Authors@R:
            role = c("aut", "cre"),
            email = "mcrump@brooklyn.cuny.edu",
            comment = c(ORCID = "0000-0002-5612-0090"))
-Description: Say something about your research project here
+Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
 Suggests: 
-    knitr,
     rmarkdown
-VignetteBuilder: knitr

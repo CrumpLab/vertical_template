@@ -1,6 +1,5 @@
 pkgdown:
-  as_is: true
-
+  as_is: yes
 navbar:
   structure:
     left:
@@ -8,6 +7,7 @@ navbar:
     - manuscript
     - articles
     - slides
+    - posters
     - experiments
     - reference
     right: github
@@ -16,25 +16,30 @@ navbar:
       icon: fa-home fa-lg
       href: index.html
     manuscript:
-      text: The paper (pdf)
+      text: PDF
       menu:
-      - text: papaja pdf
-        href: manuscript/draft_manuscript.pdf
+      - text: The title
+        href: manuscript/manuscript.pdf
     articles:
       text: Supplementary
       menu:
-      - text: Getting Started
+      - text: Supplementary analyses
         href: articles/Supplemental_1.html
     slides:
       text: Slides
       menu:
-      - text: test presentation
-        href: slides/slidy_example.html
+      - text: Example slide presentation using slidy
+        href: slides/slides.html
+    posters:
+      text: Poster
+      menu:
+      - text: Generate Reproducible & Live HTML and PDF Conference Posters Using RMarkdown
+        href: posters/poster.html
     experiments:
       text: Experiments
       menu:
       - text: Experiment 1
-        href: experiments/Experiment 1/experiment/index.html
+        href: experiments/experiment-1/index.html
     reference:
       text: Functions
       href: reference/index.html
@@ -42,15 +47,13 @@ navbar:
       text: source code
       icon: fa-lg fa-github
       href: https://github.com/CrumpLab/vertical_template
-      
 home:
-  strip_header: true
+  strip_header: yes
   links:
-    - text: A link to X
-      href: some link
-    - text: A link to Y
-      href: another link
+  - text: A link to X
+    href: some link
+  - text: A link to Y
+    href: another link
   Authors:
-    - text: Author 1
-    - text: Author 2
-
+  - text: Author 1
+  - text: Author 2
